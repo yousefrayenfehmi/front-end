@@ -18,7 +18,7 @@ const Footer = () => {
               <FontAwesomeIcon icon={faEnvelope} /> <a href="mailto:contact@mister-ia.com">contact@mister-ia.com</a>
             </p>
             <p>
-              <FontAwesomeIcon icon={faPhone} /><a href="tel:+33 7 66 14 52 38">06 79 53 29 05</a> 
+              <FontAwesomeIcon icon={faPhone} /><a href="tel:+33 7 66 14 52 38">+33 7 66 14 52 38</a> 
             </p>
             <p>
               <FontAwesomeIcon icon={faLinkedin} /> <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">Linkedin</a>
