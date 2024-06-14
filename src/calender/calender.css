@@ -1,0 +1,58 @@
+.card {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+  }
+  
+  .card-left, .card-right {
+    flex: 1;
+  }
+  
+  .card-left {
+    padding: 20px;
+    border-right: 1px solid #ccc; /* Add border on the right */
+  }
+  
+  .card-middle {
+    padding: 20px;
+  }
+  
+  .custom-calendar {
+    border: none;
+    box-shadow: none;
+  }
+  
+  .date-info {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  h2 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  /* Add this CSS to your existing Card.css or create a new CSS file */
+
+.react-calendar__tile--active {
+    background: #007bff; /* Change background color to blue */
+    color: white; /* Change text color to white */
+    border-radius: 50%; /* Make the border radius 50% to create a circle */
+  }
+  
+  /* Optional: Add hover effect */
+  .react-calendar__tile--active:hover {
+    background: #0056b3; /* Darker shade of blue on hover */
+  }
+  
+  

@@ -1,0 +1,84 @@
+/* HeroSection.css */
+
+.hero-container {
+    background-color: white;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px;
+    text-align: center;
+    flex-direction: row; /* Changer pour une disposition en ligne */
+  }
+  
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+  }
+  .mot{
+    color: blue;
+  }
+  .hero-container h1 {
+    color: black;
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  .circular-button {
+  border: none;
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.3s;
+}
+
+.circular-button:hover {
+  background-color: #ccc; /* Changez ceci à la couleur de survol souhaitée */
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  transition: opacity 0.3s;
+  opacity: 0; /* La flèche est initialement cachée */
+}
+
+.circular-button.hovered .arrow {
+  opacity: 1; /* La flèche est affichée lorsqu'on survole le bouton */
+}
+
+  .hero-container p {
+    color: black;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+  
+  .hero-image-container {
+    margin-top: 40px; /* Ajouter un espace entre le contenu et l'image */
+  }
+  
+  .hero-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optionnel : Pour arrondir les coins de l'image */
+    animation: moveUpDown 3s infinite; /* Appliquer l'animation */
+  }
+  
+  @keyframes moveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
