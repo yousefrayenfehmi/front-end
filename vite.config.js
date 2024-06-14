@@ -5,7 +5,8 @@ export default defineConfig({
   plugins: [react()],
   define: {
     'process.env.VITE_REACT_API_URL': JSON.stringify(process.env.VITE_REACT_API_URL),
-    'process.env.VITE_script_src': JSON.stringify(process.env.VITE_script_src),
-    'process.env.VITE_script_data-url': JSON.stringify(process.env.VITE_script_data_url), // Correction de la clé ici
+    'process.env.VITE_SCRIPT_SRC': JSON.stringify(process.env.VITE_SCRIPT_SRC),
+    'process.env.VITE_SCRIPT_DATA_URL': JSON.stringify(process.env.VITE_SCRIPT_DATA_URL),
+    // Make sure all environment variable keys follow the valid identifier rules
   }
 });
