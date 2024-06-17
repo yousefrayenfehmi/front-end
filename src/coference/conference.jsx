@@ -35,7 +35,7 @@ function Conference(params) {
         <Card title="Utiliser l'IA" content="Savoir brainstormer avec l’IA, produire du contenu avec, savoir utiliser l’IA dans les logiciels du quotidien et communiquer avec l’IA."/>
 <h1>Que découvrirez-vous dans nos conférences sur l’intelligence artificielle ?
 </h1>
-        <ImageWithCards cards={cardes}> </ImageWithCards>
+        <ImageWithCards cards={cardes} imgSrc="img/cof.png"> </ImageWithCards>
         <FAQ/>
         <Footer/>
         </div>
