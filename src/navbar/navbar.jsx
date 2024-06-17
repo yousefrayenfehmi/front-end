@@ -15,16 +15,16 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <a href="/" className="navbar-logo">MathildaLearning</a>
+        <a href="/" className="navbar-logo">MathildaIA</a>
         <button className="navbar-toggle-btn" onClick={toggleMenu}>
           Menu
         </button>
         <ul className={`nav-menu ${showMenu ? 'active' : ''}`}>
           <li className="nav-item"><a href="/formation" className="nav-link">Formation IA</a></li>
           <li className="nav-item"><a href="/audit" className="nav-link">Audit & Conseil</a></li>
-          <li className="nav-item"><a href="/conference" className="nav-link">Conférence</a></li>
+          <li className="nav-item"><a href="/cof" className="nav-link">Conférence</a></li>
           <li className="nav-item">
-            <Link to="/appointment" className="nav-link" target="_blank">
+            <Link to="/cale" className="nav-link" target="_blank">
               Prendre rendez-vous <CalendarMonthIcon />
             </Link>
           </li>

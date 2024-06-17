@@ -46,7 +46,7 @@ const Audit=()=>{
 
         <div>
         <Navbar />        
-        <Section2 img="img/cof.png" titre="Optimisez vos process en intégrant ChatGPT et l’IA"  para="Mister IA réalise un audit complet de vos processus et propose des recommandations personnalisées pour déployer efficacement ChatGPT et d'autres outils d'IA, améliorant ainsi les performances et la productivité de votre entreprise." />
+        <Section2 img="img/cof.png" titre="Optimisez vos process en intégrant ChatGPT et l’IA"  para="MathildaIA réalise un audit complet de vos processus et propose des recommandations personnalisées pour déployer efficacement ChatGPT et d'autres outils d'IA, améliorant ainsi les performances et la productivité de votre entreprise." />
         <div class="card-container mt-5">
         <MediaCard title="Pourquoi faire un audit IA ?" para="Faire un audit IA permet d'identifier précisément comment et où l'intelligence artificielle peut améliorer vos processus spécifiques et augmenter votre productivité ainsi que celle de vos collaborateurs. " img="img/10921082.png"/>
         <MediaCard title="Comment sont fait nos audits ?" para="Lors de nos audits IA, nous effectuons une analyse approfondie de vos processus et métiers, en collaborant étroitement avec vos équipes pour identifier les inefficacités, les tâches chronophages et les opportunités d'amélioration par l'IA, afin de maximiser les bénéfices de l'implémentaton dans votre organisation." img="img/flag.jfif"/>

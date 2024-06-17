@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-section">
-          <h2>MathildaLearning</h2>
+          <h2>MathildaIA</h2>
           <address>
             <p>
               <FontAwesomeIcon icon={faMapMarkerAlt} /> <a href="https://www.google.com/maps/search/?api=1&query=128+rue+la+Boétie,+Paris,+75008" target="_blank" rel="noopener noreferrer">128 rue la Boétie, Paris, 75008</a>
@@ -51,7 +51,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>© 2024  MathildaLearning. All Rights Reserved.</p>
+        <p>© 2024  MathildaIA. All Rights Reserved.</p>
       </div>
     </footer>
   );

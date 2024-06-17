@@ -36,12 +36,12 @@
   margin: 0;
   padding: 0;
   transition: max-height 0.3s ease-out;
-  max-height: 0;
+  max-height: 500px; /* Hauteur maximale pour les petits écrans */
   overflow: hidden;
 }
 
 .nav-menu.active {
-  max-height: 500px; /* Ajuster la hauteur pour montrer tous les liens */
+  max-height: 0; /* Caché par défaut sur les grands écrans */
 }
 
 .nav-item {
@@ -70,6 +70,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .navbar {
+    justify-content: center; /* Centrer la navbar pour les petits écrans */
+  }
+
   .navbar-toggle-btn {
     display: block; /* Afficher le bouton sur les petits écrans */
   }
