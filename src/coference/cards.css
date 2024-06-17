@@ -1,0 +1,66 @@
+/* Card.css */
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 800px; /* Ajuster selon la taille souhaitée */
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 12px; /* Bordures arrondies */
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.bullet-point {
+  color: blue; /* Couleur du point */
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.card-header h2 {
+  margin: 0;
+  font-size: 1.2em; /* Ajuster selon la taille souhaitée */
+}
+
+.card p {
+  margin: 0;
+  font-size: 1em; /* Ajuster selon la taille souhaitée */
+  line-height: 1.5;
+}
+.card {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.animated-card {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+}
+
+.bullet-point {
+  margin-right: 8px;
+  color: #007BFF;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+  color: #333;
+}

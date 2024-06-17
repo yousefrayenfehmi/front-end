@@ -1,0 +1,20 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* Optionnel : espace entre les cartes */
+    padding: 20px;
+    background-color: white; /* Fond légèrement bleu */
+  }
+  .card-media {
+    height: 60px; /* Adjust the height to make the image smaller */
+    width: 60px; /* Let the width adjust automatically based on the aspect ratio */
+    
+  }
+  
+  .butt{
+      text-align: center;
+  }
+  h1{
+    text-align: center;
+    font-size: 50px;
+  }

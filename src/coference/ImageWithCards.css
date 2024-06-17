@@ -1,0 +1,26 @@
+/* ImageWithCards.css */
+.image-with-cards {
+  display: flex;
+  align-items: center;
+  position: relative;
+  max-width: 1200px; /* Ajustez selon vos besoins */
+  margin: 0 auto;
+}
+
+.background-image {
+  width: 500px; /* Ajustez selon vos besoins */
+  height: 500px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.card {
+  max-width: 800px; /* Ajustez selon vos besoins */
+}

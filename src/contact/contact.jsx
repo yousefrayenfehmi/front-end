@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-section">
-          <h2>LeaderIA</h2>
+          <h2>MathildaLearning</h2>
           <address>
             <p>
               <FontAwesomeIcon icon={faMapMarkerAlt} /> <a href="https://www.google.com/maps/search/?api=1&query=128+rue+la+Boétie,+Paris,+75008" target="_blank" rel="noopener noreferrer">128 rue la Boétie, Paris, 75008</a>
@@ -28,25 +28,25 @@ const Footer = () => {
         <div className="footer-section">
           <h3>Services</h3>
           <ul>
-            <li>Formations IA</li>
-            <li>Audit & conseil</li>
-            <li>Conférences</li>
+            <a href="/formation"><li>Formations IA</li></a>
+            <a href="/audit"><li>Audit & conseil</li></a>
+            <a href="/cof"><li>Conférences</li></a>
           </ul>
         </div>
         <div className="footer-section">
           <h3>Informations</h3>
           <ul>
-            <li>CGV</li>
-            <li>Mentions légales</li>
-            <li>Politique de confidentialité</li>
+            <a href="pdf/cgv.pdf" target='_blank'><li>CGV</li></a>
+            <a href="pdf/cgv.pdf" target='_blank'><li>Mentions légales</li></a>
+            <a href="pdf/cgv.pdf" target='_blank'><li>Politique de confidentialité</li></a>
           </ul>
         </div>
         <div className="footer-section">
           <h3>Autres</h3>
           <ul>
-            <li>Règlement intérieur</li>
-            <li>Attestation Qualiopi</li>
-            <li>Annuaire personne en situation de handicap</li>
+          <a href="pdf/reglement.pdf" target='_blank'><li>Règlement intérieur</li></a>
+          <a href="pdf/cgv.pdf" target='_blank'><li>Attestation Qualiopi</li></a>
+          <a href="pdf/cgv.pdf" target='_blank'><li>Annuaire personne en situation de handicap</li></a>
           </ul>
         </div>
       </div>

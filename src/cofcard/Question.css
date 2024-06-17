@@ -1,0 +1,103 @@
+.faq-details-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+  }
+  
+  .faq-details-left {
+    flex: 1;
+    margin-right: 40px;
+  }
+  
+  .faq-details-left h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .faq-details-left .highlight {
+    background-color: #007bff;
+    color: white;
+    padding: 0 5px;
+    border-radius: 5px;
+  }
+  
+  .faq-details-left p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .contact-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-button .email-icon {
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  
+  .contact-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .faq-details-right {
+    flex: 2;
+  }
+  
+  .faq-details-right details {
+    margin-bottom: 10px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .faq-details-right details[open] {
+    background-color: #f1f1f1;
+  }
+  
+  .faq-details-right summary {
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px;
+    outline: none;
+    font-weight: bold;
+  }
+  
+  .faq-details-right summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  .faq-details-right summary::after {
+    content: '➤';
+    font-size: 12px;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .faq-details-right details[open] summary::after {
+    transform: rotate(90deg);
+  }
+  
+  .faq-details-right p {
+    margin-left: 20px;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
