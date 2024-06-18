@@ -69,4 +69,48 @@
   .btn:hover {
     background-color: lightgray;
   }
+  @media (max-width: 768px) {
+    .main-content {
+      padding: 15px;
+    }
   
+    .btn {
+      padding: 8px 15px;
+    }
+  
+    .description {
+      font-size: 14px;
+    }
+  
+    .features li {
+      margin: 8px 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .main-content {
+      padding: 10px;
+    }
+  
+    .btn {
+      padding: 5px 10px;
+      font-size: 14px;
+    }
+  
+    .description {
+      font-size: 12px;
+    }
+  
+    .features li {
+      margin: 5px 0;
+      font-size: 12px;
+    }
+  
+    .buttons {
+      flex-direction: column;
+    }
+  
+    .btn {
+      margin: 5px 0;
+    }
+  }
