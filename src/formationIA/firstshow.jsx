@@ -7,9 +7,7 @@ const Firstshow = () => {
     return (
         <div>
         <div className="homepage" style={{ backgroundImage: `url(${backgroundImage})` }}>
-          <header className="header">
-            <ContactBanner />
-          </header>
+          
           <main className="main-content">
             <h1>LA FORMATION EN LIGNE ET PRESENTIELLE AVEC WALTER LEARNING</h1>
             <p className="description">
@@ -22,6 +20,9 @@ const Firstshow = () => {
             </ul>
             <div className="buttons">
              <a href="#section-title"> <button className="btn">NOS FORMATIONS</button></a>
+             <div className="header">
+            <ContactBanner />
+          </div>
             </div>
           </main>
         </div>

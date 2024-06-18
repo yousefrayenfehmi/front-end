@@ -15,11 +15,13 @@
   
   .header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center; /* Pour centrer horizontalement */
+    align-items: center; /* Pour centrer verticalement */
     width: 100%;
     padding: 10px 20px;
     background-color: transparent;
   }
+  
   
   .contact-info {
     text-align: right;

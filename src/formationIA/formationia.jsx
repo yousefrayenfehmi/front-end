@@ -39,7 +39,7 @@ function Form() {
         <Firstshow />
       </div>
 
-      <div className="App">
+      <div className="App mt-5">
         <h1 className='section-title' id='section-title'>Nos formations générales</h1>
         <div className="card-container">
           {formationGenerale.map(formation => (
