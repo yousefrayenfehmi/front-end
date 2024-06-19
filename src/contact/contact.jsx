@@ -29,7 +29,7 @@ const Footer = () => {
           <h3>Services</h3>
           <ul>
             <a href="/formation"><li>Formations IA</li></a>
-            <a href="/audit"><li>Audit & conseil</li></a>
+            <a href="/audit"><li>Audit & intègration</li></a>
             <a href="/cof"><li>Conférences</li></a>
           </ul>
         </div>

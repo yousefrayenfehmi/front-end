@@ -21,7 +21,7 @@ const Navbar = () => {
         </button>
         <ul className={`nav-menu ${showMenu ? 'active' : ''}`}>
           <li className="nav-item"><a href="/formation" className="nav-link">Formation IA</a></li>
-          <li className="nav-item"><a href="/audit" className="nav-link">Audit & Conseil</a></li>
+          <li className="nav-item"><a href="/audit" className="nav-link">Audit & intègration</a></li>
           <li className="nav-item"><a href="/cof" className="nav-link">Conférence</a></li>
           <li className="nav-item">
             <Link to="/cale" className="nav-link" target="_blank">

@@ -53,8 +53,10 @@ const Audit=()=>{
         <MediaCard title="Quels seront les résultats ?" para="À l'issue de cet audit, nous élaborons des recommandations personnalisées et pratiques, incluant des stratégies détaillées et des solutions sur mesure pour une intégration efficace de l'IA, ainsi que des plans d'action concrets pour leur mise en œuvre." img="img/seminar.png" />
         </div>
         <h1>Les principes d’une mission Mathilda IA</h1>
-        <Card title="Productivité"  content="Nous mettons en place des process qui permettent à vos collaborateurs de devenir plus productifs."/>
-        <Card title="Simplicité" content="Nous nous engageons à ne pas transformer toute votre IT et à proposer des services peu onéreux."/>
+        <Card title="Productivité"  content="Nous instaurons des processus qui rendent vos employés plus productifs."/>
+        <Card title="Intégration" content="Nous nous engageons à ne pas remanier l'ensemble de votre système informatique et à offrir des services à faible coût."/>
+        <Card title="Innovation" content="Si vous le souhaitez, nous pouvons intégrer l'intelligence artificielle et l'automatisation au sein de votre entreprise pour améliorer encore davantage votre efficacité et vos performances."/>
+
         <h1>Notre méthodologie</h1>
         <p style={{ textAlign: 'center' }}>
         Mathilda IA prend par la main vos équipes pour comprendre en détail leur quotidien et les aider à utiliser l’IA dans les process les plus opportuns.
