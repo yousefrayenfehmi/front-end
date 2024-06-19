@@ -8,9 +8,9 @@ const Firstshow = () => {
     <div>
       <div className="homepage" style={{ backgroundImage: `url(${backgroundImage})` }}>
         <main className="main-content">
-          <h1 style={{ textAlign: 'left' }}>LA FORMATION EN LIGNE AVEC MATHILDAIA</h1>
+          <h1 style={{ textAlign: 'left' }}>FINANCER VOTRE FORMATION AVEC MATHILDA IA</h1>
           <p className="description" style={{ textAlign: 'left' }}>
-            Experts de la formation en ligne, nous vous accompagnons dans le développement de vos compétences professionnelles
+            Experts de la formation en ligne et en présentielle, nous vous accompagnons dans le développement de vos compétences professionnelles
           </p>
           <ul className="features" style={{ textAlign: 'left' }}>
             <li>{<CheckIcon/>}Des formations professionnelles 100% en ligne</li>
@@ -22,9 +22,7 @@ const Firstshow = () => {
             <a href="#section-title"><button className="btn">NOS FORMATIONS</button></a>
           </div>
         </main>
-        <div className="header">
-          <ContactBanner />
-        </div>
+        
       </div>
     </div>
   );

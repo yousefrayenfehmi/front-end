@@ -5,13 +5,14 @@
     align-items: center;
     background-color: rgba(255, 255, 255, 0.9); /* Fond blanc légèrement transparent */
     border-radius: 10px;
-    padding: 10px 20px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
   .phone-icon {
     margin-right: 10px;
-    height: 50px; /* Ajustez la taille selon vos besoins */
+    height: 0px; /* Ajustez la taille selon vos besoins */
   }
   
   .contact-text {
@@ -26,15 +27,7 @@
     margin: 0;
   }
   
-  .phone-number {
-    font-size: 1.5em;
-    font-weight: bold;
-    margin: 0;
-  }
   
-  .local-rate {
-    font-size: 0.8em;
-    color: grey;
-    margin: 0;
-  }
+  
+
   

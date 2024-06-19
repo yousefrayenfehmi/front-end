@@ -5,15 +5,16 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 import './card.css';
+
 export default function MultiActionAreaCard(props) {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card className="custom-card">
       <CardActionArea>
         <CardMedia
           component="img"
           height="140"
           image="img/formation.jpg"
-          alt="green iguana"
+          alt="formation image"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
@@ -23,17 +24,13 @@ export default function MultiActionAreaCard(props) {
             {props.para}
           </Typography>
         </CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-            {props.prix}€ en ligne
-          </Typography>
-          <Typography gutterBottom variant="h5" component="div">
-            {props.prixpresentielle}€ en presentielle
-          </Typography>
-
+        <Typography gutterBottom variant="h6" component="div" className="price-info">
+          {props.duree} <span className="large-blue-point">.</span> {props.prix}€ en ligne <span className="large-blue-point">.</span> {props.prixpresentielle}€ en présentiel
+        </Typography>
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-          Voir detaille
+          Voir détaille
         </Button>
       </CardActions>
     </Card>

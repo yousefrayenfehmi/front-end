@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import './Navbar.css';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import { Link } from 'react-router-dom';
-
+import ContactBanner from '../formationIA/contactbanner';
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <a href="/" className="navbar-logo">MathildaIA</a>
+        <a href="/" className="navbar-logo">Mathilda IA</a>
         <button className="navbar-toggle-btn" onClick={toggleMenu}>
           Menu
         </button>
@@ -28,6 +28,7 @@ const Navbar = () => {
               Prendre rendez-vous <CalendarMonthIcon />
             </Link>
           </li>
+          <li>{<ContactBanner/>}</li>
         </ul>
       </div>
     </nav>
