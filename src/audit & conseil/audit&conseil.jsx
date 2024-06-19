@@ -52,12 +52,12 @@ const Audit=()=>{
         <MediaCard title="Comment sont fait nos audits ?" para="Lors de nos audits IA, nous effectuons une analyse approfondie de vos processus et métiers, en collaborant étroitement avec vos équipes pour identifier les inefficacités, les tâches chronophages et les opportunités d'amélioration par l'IA, afin de maximiser les bénéfices de l'implémentaton dans votre organisation." img="img/flag.jfif"/>
         <MediaCard title="Quels seront les résultats ?" para="À l'issue de cet audit, nous élaborons des recommandations personnalisées et pratiques, incluant des stratégies détaillées et des solutions sur mesure pour une intégration efficace de l'IA, ainsi que des plans d'action concrets pour leur mise en œuvre." img="img/seminar.png" />
         </div>
-        <h1>Les principes d’une mission Mister IA</h1>
+        <h1>Les principes d’une mission Mathilda IA</h1>
         <Card title="Productivité"  content="Nous mettons en place des process qui permettent à vos collaborateurs de devenir plus productifs."/>
         <Card title="Simplicité" content="Nous nous engageons à ne pas transformer toute votre IT et à proposer des services peu onéreux."/>
         <h1>Notre méthodologie</h1>
         <p style={{ textAlign: 'center' }}>
-  Mister IA prend par la main vos équipes pour comprendre en détail leur quotidien et les aider à utiliser l’IA dans les process les plus opportuns.
+        Mathilda IA prend par la main vos équipes pour comprendre en détail leur quotidien et les aider à utiliser l’IA dans les process les plus opportuns.
 </p>
         <Timeline steps={steps}/>
         <FAQ/>
