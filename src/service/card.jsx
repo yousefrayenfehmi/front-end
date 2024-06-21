@@ -6,32 +6,64 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import './cards.css'; // Assurez-vous de créer ce fichier CSS
-import { Link} from 'react-router-dom';
+
 export default function MediaCard(props) {
   const { ref, inView } = useInView({
-    triggerOnce: true, // L'animation ne se déclenche qu'une seule fois
-    threshold: 0.1,   // Déclencher quand 10% de la carte est visible
+    triggerOnce: true,
+    threshold: 0.1,
   });
 
+  const cardStyle = {
+    maxWidth: '345px',
+    backgroundColor: 'white', // Fond blanc pour la carte
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+    borderRadius: '8px',
+    overflow: 'hidden',
+    marginBottom: '20px',
+    transition: 'transform 0.3s ease-in-out',
+    transform: inView ? 'translateY(0)' : 'translateY(5px)',
+  };
+
+  const mediaStyle = {
+    width: '100px',
+    height: '100px',
+    objectFit: 'cover',
+    borderRadius: '8px',
+    margin: 'auto',
+    display: 'block',
+  };
+
+  const contentStyle = {
+    flex: '1',
+    padding: '16px',
+  };
+
+  const buttonStyle = {
+    color: '#1976d2',
+    textDecoration: 'none',
+    cursor: 'pointer',
+  };
+
   return (
-    <Card ref={ref} className={`custom-card ${inView ? 'animated-card' : ''}`}>
+    <Card ref={ref} style={cardStyle}>
       <CardMedia
-        className="card-media"
+        style={mediaStyle}
         image={props.img}
-        title="green iguana"
+        title={props.title}
       />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          {props.title}
-                  </Typography>
-        <Typography variant="body2" color="text.secondary">
-          {props.para}
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <a href={props.url}><Button size="small" className="custom-button">En savoir plus</Button></a>
-      </CardActions>
+      <div style={contentStyle}>
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+            {props.title}
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            {props.para}
+          </Typography>
+        </CardContent>
+        <CardActions>
+          <a href={props.url} style={buttonStyle}><Button size="small">En savoir plus</Button></a>
+        </CardActions>
+      </div>
     </Card>
   );
 }
