@@ -18,6 +18,10 @@
       {
         "src": "/audit",
         "dest": "/"
+      },
+      {
+        "src": "/showformationtime",
+        "dest": "/"
       }
     
     ]}
