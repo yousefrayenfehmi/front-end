@@ -25,13 +25,14 @@ export default function MultiActionAreaCard(props) {
           </Typography>
         </CardContent>
         <Typography gutterBottom variant="h6" component="div" className="price-info">
-          {props.duree} <span className="large-blue-point">.</span> {props.prix}€ en ligne <span className="large-blue-point">.</span> {props.prixpresentielle}€ en présentiel
+          {props.duree}  <span className="large-blue-point">.</span> {props.prix}€ en ligne <span className="large-blue-point">.</span> {props.prixpresentielle}€ en présentiel
         </Typography>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        <a href={"/showformationtime?id="+props.id}><Button size="small" color="primary">
           Voir détaille
         </Button>
+        </a>
       </CardActions>
     </Card>
   );

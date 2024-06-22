@@ -7,6 +7,8 @@ export default defineConfig({
     'process.env.VITE_REACT_API_URL': JSON.stringify(process.env.VITE_REACT_API_URL),
     'process.env.VITE_SCRIPT_SRC': JSON.stringify(process.env.VITE_SCRIPT_SRC),
     'process.env.VITE_SCRIPT_DATA_URL': JSON.stringify(process.env.VITE_SCRIPT_DATA_URL),
+    'process.env.VITE_SCRIPT_DATA_URL1': JSON.stringify(process.env.VITE_SCRIPT_DATA_URL1),
+
     // Make sure all environment variable keys follow the valid identifier rules
   }
 });

@@ -6,6 +6,7 @@ import Form from "./formationIA/formationia"
 import Conference from "./coference/conference";
 import Audit from "./audit & conseil/audit&conseil";
 import Firstshow from "./formationIA/firstshow";
+import Showft from "./formationIA/showformationtime";
 function App() {
   return (
     <Router>
@@ -17,6 +18,7 @@ function App() {
           <Route  path="/cof" element={<Conference />} />    
           <Route  path="/audit" element={<Audit />} />    
           <Route  path="/first" element={<Firstshow />} />    
+          <Route  path="/showformationtime" element={<Showft />} />    
 
         </Routes>
       </div>

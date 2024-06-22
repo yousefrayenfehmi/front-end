@@ -45,6 +45,7 @@ function Form() {
           {formationGenerale.map(formation => (
             <div key={formation.id} className="card-item">
               <MultiActionAreaCard
+               id={formation.id}
                 titre={formation.titre}
                 para={formation.description}
                 prix={formation.prixenligne}
@@ -61,6 +62,7 @@ function Form() {
           {formationspecifier.map(formation => (
             <div key={formation.id} className="card-item">
               <MultiActionAreaCard
+                id={formation.id}
                 titre={formation.titre}
                 para={formation.description}
                 prix={formation.prixenligne}
