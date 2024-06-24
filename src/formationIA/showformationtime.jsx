@@ -3,7 +3,6 @@ import Navbar from '../navbar/navbar';
 import Footer from '../contact/contact';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
-import BasicTable from './table';
 const Showft = () => {
   const [formation, setFormation] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -36,7 +35,6 @@ const Showft = () => {
     <div>
       <Navbar />
       <h1>Les date disponible</h1>
-      <BasicTable rows={formation}/>
       <Footer />
     </div>
   );

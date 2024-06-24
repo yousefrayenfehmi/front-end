@@ -13,7 +13,7 @@ export default function MultiActionAreaCard(props) {
         <CardMedia
           component="img"
           height="140"
-          image="img/formation.jpg"
+          image={"img/"+props.img}
           alt="formation image"
         />
         <CardContent>
@@ -29,10 +29,6 @@ export default function MultiActionAreaCard(props) {
         </Typography>
       </CardActionArea>
       <CardActions>
-        <a href={"/showformationtime?id="+props.id}><Button size="small" color="primary">
-          Voir détaille
-        </Button>
-        </a>
       </CardActions>
     </Card>
   );

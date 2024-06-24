@@ -15,10 +15,10 @@ const Footer = () => {
               <FontAwesomeIcon icon={faMapMarkerAlt} /> <a href="https://www.google.fr/maps/place/Rue+de+saussure/@48.8873734,2.3146357,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66f0078688c1b:0x173ae88e3b6bc42!8m2!3d48.8873734!4d2.3120608!16s%2Fg%2F11vq3vfx2w?entry=ttu" target="_blank" rel="noopener noreferrer">158 RUE DE SAUSSURE 75017 PARIS</a>
             </p>
             <p>
-              <FontAwesomeIcon icon={faEnvelope} /> <a href="">contact@Mathilda_IA.com</a>
+              <FontAwesomeIcon icon={faEnvelope} /> <a href="mailto:mathildaia425@gmaim.com">mathildaia425@gmaim.com</a>
             </p>
             <p>
-              <FontAwesomeIcon icon={faPhone} /><a href="tel:08 92 97 61 48">08 92 97 61 48</a> 
+              <FontAwesomeIcon icon={faPhone} /><a href="tel:+33 7 66 14 52 38">+33 7 66 14 52 38</a> 
             </p>
           </address>
         </div>

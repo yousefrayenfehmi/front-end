@@ -18,7 +18,6 @@ function App() {
           <Route  path="/cof" element={<Conference />} />    
           <Route  path="/audit" element={<Audit />} />    
           <Route  path="/first" element={<Firstshow />} />    
-          <Route  path="/showformationtime" element={<Showft />} />    
 
         </Routes>
       </div>

@@ -51,6 +51,7 @@ function Form() {
                 prix={formation.prixenligne}
                 prixpresentielle={formation.prixpresentielle}
                 duree={formation.duree}
+                img={formation.img}
               />
             </div>
           ))}
@@ -68,12 +69,14 @@ function Form() {
                 prix={formation.prixenligne}
                 prixpresentielle={formation.prixpresentielle}
                 duree={formation.duree}
+                img={formation.img}
               />
             </div>
           ))}
         </div>
       </div>
       <div className="App">
+        <h1 className='section-title'>Nos formations à venir</h1>
         <div className="card-container">
           {formationavenir.map(x => (
             <div key={x.id} className="card-item">
@@ -85,6 +88,7 @@ function Form() {
           ))}
         </div>
       </div>
+    
       <Footer />
     </div>
   );
