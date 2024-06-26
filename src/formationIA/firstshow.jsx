@@ -19,7 +19,7 @@ const Firstshow = () => {
             <li>{<CheckIcon/>}Un accompagnement au financement : CPF, Pôle emploi, OPCO, paiement en plusieurs fois</li>
           </ul>
           <div className="buttons">
-            <a href=""><button className="btn">NOS FORMATIONS</button></a>
+            <a href="#section-title"><button className="btn">NOS FORMATIONS</button></a>
           </div>
         </main>
         
