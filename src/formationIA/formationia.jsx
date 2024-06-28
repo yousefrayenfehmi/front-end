@@ -14,7 +14,7 @@ function Form() {
   const [formationavenir, setFormAvenir] = useState([]);
 
   useEffect(() => {
-    axios.get(import.meta.env.VITE_REACT_API_URL)
+    axios.get("https://backend-weld-chi.vercel.app/formation")
       .then(response => {
         console.log(response.data.rows); // Vérifiez le type de response.data
         if (Array.isArray(response.data.rows)) {
