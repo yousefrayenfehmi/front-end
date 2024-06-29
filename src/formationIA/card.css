@@ -23,7 +23,9 @@
 }
 
 .price-info {
+  
   margin-top: auto; /* Push the price info to the bottom */
+  padding-left: 15px;
 }
 
 .large-blue-point {
