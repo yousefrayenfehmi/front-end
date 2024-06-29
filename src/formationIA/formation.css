@@ -1,0 +1,33 @@
+.App {
+    padding: 20px;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribute space between items */
+  }
+  
+  .card-item {
+    flex: 1 1 calc(33.333% - 20px); /* Adjust the width calculation */
+    box-sizing: border-box;
+    margin: 10px;
+  }
+  
+  @media (max-width: 1200px) {
+    .card-item {
+      flex: 1 1 calc(50% - 20px); /* Two cards per line on medium screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .card-item {
+      flex: 1 1 calc(100% - 20px); /* One card per line on small screens */
+    }
+  }
+  

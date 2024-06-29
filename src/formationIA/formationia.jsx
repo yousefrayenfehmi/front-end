@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import MultiActionAreaCard from './card'; // Adjust the import path as necessary
-import './card.css'; // Import your CSS file
+import './formation.css'; // Import your CSS file
 import Navbar from "../navbar/navbar";
 import Footer from "../contact/contact";
 import Firstshow from './firstshow';
